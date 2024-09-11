@@ -290,6 +290,16 @@ body {
     color: #555; /* Text color */
 }
 
+.discounted-price {
+  font-size: 16px; /* Ukuran default untuk 'CUMA' */
+}
+
+.discounted-price .price {
+  font-size: 24px; /* Ukuran lebih besar untuk harga */
+  font-weight: bold; /* Menebalkan tulisan harga */
+  color: red; /* Opsional: Mengubah warna tulisan harga */
+}
+
 .promo-list li {
     margin: 5px 0; /* Space between list items */
 }
