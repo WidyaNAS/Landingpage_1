@@ -1,0 +1,296 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f8f8;
+    color: #333;
+}
+
+.installation-result {
+    font-size: 1.8em; /* Increase the font size */
+    font-weight: bold; /* Make the text bold */
+    color: #333; /* Optional: Adjust color if needed */
+    margin-top: 20px; /* Optional: Add some spacing */
+}
+
+.container {
+    margin: 20px auto;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.headline {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+}
+
+.subheadline {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #888;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.description {
+    margin: 20px 0;
+    font-size: 1.1em;
+}
+
+.options {
+    margin: 20px 0;
+}
+
+.options button {
+    display: block;
+    width: 80%;
+    padding: 10px;
+    margin: 10px auto;
+    background-color: #fff;
+    border: 2px solid #ff6600;
+    color: #333;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.options button:hover {
+    background-color: #ff6600;
+    color: #fff;
+}
+
+.arrow {
+    font-size: 3em;
+    color: #ff6600;
+    animation: bounce 1s infinite;
+}
+
+.cta {
+    margin-top: 20px;
+}
+
+.cta button {
+    padding: 15px 30px;
+    font-size: 1.2em;
+    color: #fff;
+    background-color: #ff6600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.cta button:hover {
+    background-color: #e65c00;
+}
+
+.slider {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slides img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    flex-shrink: 0;
+    border-radius: 8px;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 50%;
+    user-select: none;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.highlight-section {
+    background-color: #ffecb3; /* Light bold background color */
+    padding: 20px; /* Add padding to give some space around */
+    border-radius: 8px; /* Rounded corners for a softer look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add shadow to lift the section */
+    margin-top: 20px; /* Space above the section */
+}
+
+.installation-result {
+    font-size: 1.8em; /* Larger font size */
+    font-weight: bold; /* Bold text */
+    color: #333; /* Text color */
+    margin-bottom: 10px; /* Space below the title */
+}
+
+.highlight-section {
+    background-color: #ffecb3; /* Light bold background color */
+    padding: 20px; /* Add padding */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    margin-top: 20px; /* Space above the section */
+}
+
+.section-title {
+    font-size: 1.8em; /* Larger font size */
+    font-weight: bold; /* Bold text */
+    color: #333; /* Text color */
+    margin-bottom: 10px; /* Space below the title */
+}
+
+.slider {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slides img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    flex-shrink: 0;
+    border-radius: 8px;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 50%;
+    user-select: none;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+.offer-section {
+    background-color: #f9f9f9; /* Light background color */
+    padding: 20px; /* Add padding around the section */
+    border-radius: 10px; /* Rounded corners */
+    text-align: center; /* Center the text */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+    margin-top: 20px; /* Space above the section */
+}
+
+.offer-title {
+    font-size: 1.2em; /* Slightly larger font size */
+    color: #555; /* Text color */
+    margin-bottom: 10px; /* Space below the title */
+}
+
+.original-price {
+    font-size: 1.8em; /* Larger font size */
+    color: #ccc; /* Light gray color */
+    text-decoration: line-through; /* Strikethrough for original price */
+    margin: 5px 0; /* Margin around the price */
+}
+
+.highlight-text {
+    font-weight: bold; /* Bold text */
+    font-size: 1.2em; /* Slightly larger font size */
+    color: #333; /* Dark color */
+    margin: 5px 0; /* Margin around the text */
+}
+
+.discounted-price {
+    font-size: 2em; /* Large font size */
+    font-weight: bold; /* Bold text */
+    color: #28a745; /* Green color for emphasis */
+    margin: 10px 0; /* Margin around the price */
+}
+
+.free-shipping, .bonus {
+    font-size: 1em; /* Normal text size */
+    color: #555; /* Text color */
+    margin: 5px 0; /* Margin around the text */
+}
+.promo-section {
+    background-color: #f0fbff; /* Light background color */
+    padding: 20px; /* Padding around the section */
+    border-radius: 10px; /* Rounded corners */
+    text-align: center; /* Center text alignment */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+    margin: 20px 0; /* Margin above and below the section */
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 50% 100%, 0 90%); /* Banner shape */
+}
+
+.promo-section h2 {
+    font-size: 1.5em; /* Font size for the main title */
+    color: #333; /* Dark text color */
+    font-weight: bold; /* Bold text */
+    margin-bottom: 10px; /* Space below the title */
+}
+
+.promo-list {
+    list-style: none; /* Remove default list styling */
+    padding: 0; /* Remove padding */
+    font-size: 1.2em; /* Font size for list items */
+    color: #555; /* Text color */
+}
+
+.promo-list li {
+    margin: 5px 0; /* Space between list items */
+}
+
