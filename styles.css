@@ -304,3 +304,30 @@ body {
     margin: 5px 0; /* Space between list items */
 }
 
+.guarantee-section {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin: auto;
+}
+
+.guarantee-badges img {
+  width: 70px;
+  margin: 10px;
+}
+
+.guarantee-section h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin: 20px 0 10px 0;
+}
+
+.guarantee-section p {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.5;
+}
