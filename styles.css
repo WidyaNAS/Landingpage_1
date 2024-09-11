@@ -331,3 +331,10 @@ body {
   color: #555;
   line-height: 1.5;
 }
+
+.highlight {
+  font-size: 1.5em; /* Ukuran lebih besar dari teks lain */
+  font-weight: bold; /* Tebalkan tulisan */
+  color: red; /* Warna opsional, bisa diubah sesuai preferensi */
+}
+
