@@ -291,11 +291,11 @@ body {
 }
 
 .discounted-price {
-  font-size: 20px; /* Ukuran default untuk 'CUMA' */
+  font-size: 30px; /* Ukuran default untuk 'CUMA' */
 }
 
 .discounted-price .price {
-  font-size: 30px; /* Ukuran lebih besar untuk harga */
+  font-size: 40px; /* Ukuran lebih besar untuk harga */
   font-weight: bold; /* Menebalkan tulisan harga */
   color: red; /* Opsional: Mengubah warna tulisan harga */
 }
