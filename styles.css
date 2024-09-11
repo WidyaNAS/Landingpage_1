@@ -295,7 +295,7 @@ body {
 }
 
 .discounted-price .price {
-  font-size: 24px; /* Ukuran lebih besar untuk harga */
+  font-size: 30px; /* Ukuran lebih besar untuk harga */
   font-weight: bold; /* Menebalkan tulisan harga */
   color: red; /* Opsional: Mengubah warna tulisan harga */
 }
